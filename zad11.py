@@ -30,7 +30,7 @@ class MRFlights(MRJob):
             AIRLINE_DELAY = 0
         DEPARTURE_DELAY, AIRLINE_DELAY = float(DEPARTURE_DELAY), float(AIRLINE_DELAY)
         MONTH = int(MONTH)
-        yield f'{MONTH:02d}', (DEPARTURE_DELAY, AIRLINE_DELAY)
+        yield AIRLINE, (DEPARTURE_DELAY, AIRLINE_DELAY)
 
 if __name__ == '__main__':
     MRFlights.run()
