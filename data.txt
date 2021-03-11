@@ -1,3 +1,2 @@
-Apache Hadoop
-HDFS
-MapReduce
+She has a cat. This cat is black. Small cat.
+She also has a dog.
